@@ -1,0 +1,41 @@
+﻿X,Y,OBJECTID,STATION_NUM,NAME,LOCATION,ADDRESS,KWH94,DEMAND94,SUPPLIER,KWHC,STATION_LABEL,STATION_TYPE
+-122.335409844158,47.6069579885432,1,41,University Street,3rd Ave & Seneca St,Tunnel,0,0,S, ,University Street,Substation
+-122.330303642632,47.6149921453398,2,42,Convention Place,Boren Ave North of Pine St,Tunnel,0,0,S, ,Convention Place,Substation
+-122.348183451315,47.6215368958817,3,44,Seattle Center,Lower Level of North Monorail Terminal, ,0,0,S, ,Seattle Center,Station
+-122.336503297316,47.6116685075892,4,43,Westlake,Basement-Westlake Mall, ,0,0,S, ,Westlake,Substation
+-122.32873446955,47.6048751475945,5,21,Central,Cherry St & 6th Ave,600 Cherry St,0,0,S, ,Central,Substation
+-122.290453785564,47.5351984215314,6,33,Doug James,Beacon Ave S & S Webster St,7316 Beacon Ave,0,0,S, ,Doug James,Substation
+-122.393115635461,47.6688204737047,7,16,Market,NW Market St west of 28th Ave NW,2826 NW Market St,276800,1724,S,276800,"Market (276,800)",Substation
+-122.3733191067,47.6680782214292,8,17,West Woodland,14th Ave NW & NW 54th St,5325 14th Ave NW,605850,2672,S,605850,"West Woodland (605,850)",Substation
+-122.340330917582,47.6645127291671,9,18,Meridian,N 49th St east of Stone Way N,1407 N 49th St,570800,2648,S,570800,"Meridian (570,800)",Substation
+-122.320113944982,47.6561265511886,10,8,University,8th Ave NE north of NE Pacific St,4017 8th Ave NE,1097600,4580,S,1097600,"University (1,097,600)",Substation
+-122.320409468165,47.6345701943807,11,13,North Broadway,10th Ave E south of E Blaine St,1637 10th Ave E,516750,2401,S,516750,"North Broadway (516,750)",Substation
+-122.301587870355,47.6393275113946,12,19,Montlake,In Alley east of 24th Ave E,2406 E Boston St,639600,3304,S,639600,"Montlake (639,600)",Substation
+-122.31238972257,47.6217079509919,13,6,Capitol,15th Ave E north of E Thomas St,342 15th Ave E,849400,3976,S,849400,"Capitol (849,400)",Substation
+-122.326273520836,47.6198755587337,14,5,Bellevue,Bellevue Ave E north of E John St,210 Bellevue Ave E,315600,1924,S,315600,"Bellevue (315,600)",Substation
+-122.363274044761,47.6434906826587,15,2,Upper Queen Anne,5th Ave W north of W Raye St,2612 5th Ave W,235160,2020,S,235160,"Upper Queen Anne (235,160)",Substation
+-122.362883163509,47.6434959343001,16,3,Upper Queen Anne,5th Ave W north of W Raye St,2612 5th Ave W,304800,1764,S,304800,"Upper Queen Anne (304,800)",Substation
+-122.355121926017,47.6265162636516,17,1,Lower Queen Anne,Valley St at 1st Ave N,800 1st Ave N,305600,1704,S,305600,"Lower Queen Anne (305,600)",Substation
+-122.288368659506,47.6185612726318,18,4,Madrona,E Denny Way & Florence Ct,3408 E Denny Way,429600,2348,S,429600,"Madrona (429,600)",Substation
+-122.295916944671,47.6102530424363,19,7,Marion,E Marion St west of 29th St- 908 MLK Way,2812 E Marion St,312227,1672,S,312227,"Marion (312,227)",Substation
+-122.317803117256,47.608296487576,20,9,First Hill,11th Ave north of E Cherry St,719 11th Ave,1003030,4786,S,1003030,"First Hill (1,003,030)",Substation
+-122.316485474181,47.5986271304128,21,12,Collins,S King St south of Dearborn Pl S,1267 S King St,341200,2548,S,341200,"Collins (341,200)",Substation
+-122.293257973986,47.589747461153,22,10,Mt Baker,30th Ave S & S Day St,1386 30th Ave S,229200,1120,S,229200,"Mt Baker (229,200)",Substation
+-122.298549699841,47.5846820594192,23,11,Empire/MLK,S Hill St west of MLK Way S,2606 S Hill St,560930,2992,S,560930,"Empire/MLK (560,930)",Substation
+-122.291233417687,47.5697400287066,24,29,Letitia,Letitia Ave S & S Rainier Ave,3813 Letitia Ave S,465600,2196,S,465600,"Letitia (465,600)",Substation
+-122.314342172683,47.5793480413654,25,23,Beacon Hill,S Lander St west of 15th Ave S,1415 S Lander St,126400,1160,S,126400,"Beacon Hill (126,400)",Substation
+-122.30304917203,47.5561808989238,26,24,Maple,Beacon Ave S & S Dawson St,4960 Beacon Ave S,194530,1190,S,194530,"Maple (194,530)",Substation
+-122.283880662405,47.5557006709127,27,28,Columbia,S Dawson St & Rainier Ave S,5117 38th Ave S,472800,2468,S,472800,"Columbia (472,800)",Substation
+-122.270335623593,47.5385912354623,28,27,Brighton,S Orchard St east of Rainier Ave S,7112 Rainier Ave S,386800,2072,S,386800,"Brighton (386,800)",Substation
+-122.266684885079,47.5169749880408,29,26,Roxbury,S Roxbury St east of 52nd Ave S,9370 52nd Ave S,288400,1880,S,288400,"Roxbury (288,400)",Substation
+-122.256100432525,47.5137398657132,30,25,Rainier Beach,62nd Ave S north of S Norfolk St,9759 62nd Ave S,208800,1916,S,208800,"Rainier Beach (208,800)",Substation
+-122.323810357303,47.5918499025912,31,15,Atlantic #2,Roof of Fuel and Wash Building,Atlantic Base F/W,165200,2400,S,165200,"Atlantic #2 (165,200)",Substation
+-122.323878652708,47.5919700836358,32,14,Atlantic #1,Roof of Fuel and Wash Building,Atlantic Base F/W,609600,4218,S,609600,"Atlantic #1 (609,600)",Substation
+-122.344808474723,47.6094930234985,33,20,Waterfront Streetcar Rect,Virginia St & Elliot Ave,50 Virginia St,206880,901,S,206880,"Waterfront Streetcar Rect (206,880)",Substation
+-122.345133226254,47.6223454328752,34,22,Broad St,Broad St & 6th Ave N,319 6th Ave N,1177900,4820,S,1177900,"Broad St (1,177,900)",Substation
+-122.332511418593,47.600293327361,35,35,South Jackson,S Jackson St West of 5th Ave S,120 S Main St,7884,0,S,7884,"South Jackson (7,884)",Substation
+-122.327781629692,47.5981493546253,36,40,International District,S Jackson St West of 5th Ave S,533 5th Ave S,2930300,19526,S,2930300,"International District (2,930,300)",Substation
+-122.320893598059,47.6613190538805,37,30,Davy Jones,NE 45th St & 7th Ave NE,4525 7th Ave NE,0,0,S, ,Davy Jones,Substation
+-122.322290894392,47.6486918820718,38,31,Allison,E Allison St & Harvard Ave E,3013 Harvard Ave E,0,0,S, ,Allison,Substation
+-122.325003774263,47.6322395385749,39,32,Galer St,E Galer St & Franklin Ave E,1500 Franklin Ave E,0,0,S, ,Galer St,Substation
+-122.3323924976,47.6135501178504,40,36,Olive,Boren Ave North of Pine St,Tunnel,0,0,S, ,Olive,Substation
