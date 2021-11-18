@@ -46,14 +46,12 @@ After some further exploration we decided to create clusters based on geospacial
 
 We were able to convert Lat/Long into addresses using Geopy. The initial plan was to obtain the names of the streets on which the properties were located and further improve the accuracy of the model. However, the data-conversion into street names as well as the conversion of the gathered street names into binary and subsequent training of the model with several thousand columns was very time consuming. Furthermore, the performance of the model appeared to be markedly worse afterwards. It was therefore decided to return to geographical clustering with Kmeans.
 
-In order to check for potential areas of improvement, the predictions and test data were exported. It was thereby discovered that there were some Zip Codes in which there was a particularly large number of significant mispredictions (off by more than 25%). The following is a list of the top 5 zip code areas with the largest number of excessively low predictions:
+![image](https://user-images.githubusercontent.com/80153403/142479455-2554525a-4528-48fc-af0f-9df7bd9c3bbd.png)
 
-Zip Code    No. of sig. mispredictions     Prop. of sig. mispredictions       Prop. of dataset
-98023	                66	                            0.084	                        0.025
-98178	                42	                            0.053	                        0.014
-98198	                40	                            0.051	                        0.013
-98038	                38	                            0.048	                        0.031
-98001	                34	                            0.043	                        0.018
+In order to check for potential areas of improvement, the predictions and test data were exported. It was thereby discovered that there were some Zip Codes in which there was a particularly large number of significant mispredictions (off by more than 25%), including zip codes 98023, 98178, 98198 with 66, 42 and 40 excessively low predictions respectively. A review of these areas on Google Maps did not reveal any obvious features (ex: proximity to airport) which could explain these discrepancies. As a result, no adjustments to the model were made.
+
+![image](https://user-images.githubusercontent.com/80153403/142479384-c570b92f-cb79-443f-9945-0ce3714dbbc5.png)
+
 
 A review of these areas on Google Maps did not reveal any obvious features (ex: proximity to airport) which could explain these discrepancies. As a result, no adjustments to the model were made.
 
