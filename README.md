@@ -95,8 +95,7 @@ You can see below some of our visualizations that we were able to create. For mo
 
 To conclude, we can predict housing prices in King County with an accuracy of 85%. In addition, we can make certain pricing recommendations on undervalued & overvalued properties in order to optimize their pricing. 
 
-However, to achieve a higher prediction accuracy we would require more hyperlocal data points in order dive deeper into the underlying trends and insights. Presumably the model can also be tweaked to better reflect the existing data.
-
+However, to achieve a higher prediction accuracy we would require more hyperlocal data points in order dive deeper into the underlying trends and insights. Presumably the model can also be tweaked to better reflect the existing data. In the assumption that there would be more time to explore and integrate the data some additional datasets (ex: King County crime stats) were researched but unfortunately not integrated into the model. This could be done at a future time.
 
 
 Thanks for reading and happy diving!
