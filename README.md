@@ -1,8 +1,8 @@
 # TheDeepDivers Mid-Bootcamp Project 
 by Arne Thielenhaus & Zeyad ElMahdy
 
-![Photos](https://github.com/zeyadelmahdy/Photos/TheDeepDiversProject/blob/main/4760796.jpg)
-![Photos](https://github.com/zeyadelmahdy/Photos/TheDeepDiversProject/blob/main/communityIcon_anc30b6ykk461.jpg)
+![Photos](https://github.com/zeyadelmahdy/TheDeepDiversProject/blob/main/Photos/4760796.jpg)
+![Photos](https://github.com/zeyadelmahdy/TheDeepDiversProject/blob/main/Photos/communityIcon_anc30b6ykk461.jpg)
 
 ## Predicting Real-Estate Prices in King County
 
