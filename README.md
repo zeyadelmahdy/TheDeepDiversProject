@@ -1,8 +1,8 @@
 # TheDeepDivers Mid-Bootcamp Project 
 by Arne Thielenhaus & Zeyad ElMahdy
 
-![TheDeepDiversProject](https://github.com/zeyadelmahdy/TheDeepDiversProject/blob/main/4760796.jpg)
-![TheDeepDiversProject](https://github.com/zeyadelmahdy/TheDeepDiversProject/blob/main/communityIcon_anc30b6ykk461.jpg)
+![Photos](https://github.com/zeyadelmahdy/Photos/TheDeepDiversProject/blob/main/4760796.jpg)
+![Photos](https://github.com/zeyadelmahdy/Photos/TheDeepDiversProject/blob/main/communityIcon_anc30b6ykk461.jpg)
 
 ## Predicting Real-Estate Prices in King County
 
@@ -48,7 +48,7 @@ We were able to convert Lat/Long into addresses using Geopy. The initial plan wa
 
 In order to check for potential areas of improvement, the predictions and test data were exported. It was thereby discovered that there were some Zip Codes in which there was a particularly large number of significant mispredictions (off by more than 25%), including zip codes 98023, 98178, 98198 with 66, 42 and 40 excessively low predictions respectively. A review of these areas on Google Maps did not reveal any obvious features (ex: proximity to airport) which could explain these discrepancies. As a result, no adjustments to the model were made.
 
-![TheDeepDiversProject](https://github.com/zeyadelmahdy/TheDeepDiversProject/blob/main/download.png)
+![Photos](https://github.com/zeyadelmahdy/TheDeepDiversProject/blob/main/Photos/download.png)
 
 ##### Scaling the data
 
@@ -69,7 +69,7 @@ X_rob_scaled = transformer_s.transform(numerical)
 
 Here we decided to use Linear Regression as our model as it was more accurate than KNN.
 
-For a further detailed documentation of the code used, please click [here](https://github.com/zeyadelmahdy/TheDeepDiversProject/blob/main/Housing_Data_Analysis_V2.ipynb)
+For a further detailed documentation of the code used, please click [here](https://github.com/zeyadelmahdy/TheDeepDiversProject/blob/main/Python-Notebook/Housing_Data_Analysis_V2.ipynb)
 
 
 ##### Reviewing results
@@ -86,8 +86,8 @@ These values indicate that there is still significant room for improvement with 
 
 You can see below some of our visualizations that we were able to create. For more visualizations, click [here](https://public.tableau.com/app/profile/zeyad.elmahdy/viz/HousingDataDashboard_16370759374640/Dashboard1?publish=yes)
 
-![TheDeepDivers](https://github.com/zeyadelmahdy/TheDeepDiversProject/blob/main/2021-11-18%2017_59_59-Greenshot.png)
-![TheDeepDivers](https://github.com/zeyadelmahdy/TheDeepDiversProject/blob/main/image.png)
+![Photos](https://github.com/zeyadelmahdy/TheDeepDiversProject/blob/main/Photos/2021-11-18%2017_59_59-Greenshot.png)
+![Photos](https://github.com/zeyadelmahdy/TheDeepDiversProject/blob/main/Photos/image.png)
 
 
 
@@ -100,4 +100,5 @@ However, to achieve a higher prediction accuracy we would require more hyperloca
 
 Thanks for reading and happy diving!
 
-![TheDeepDivers](https://github.com/zeyadelmahdy/TheDeepDiversProject/blob/main/20120305-065858.jpg)
+![Photos](https://github.com/zeyadelmahdy/TheDeepDiversProject/blob/main/Photos/20120305-065858.jpg)
+
