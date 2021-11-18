@@ -42,12 +42,11 @@ We were able to quickly identify some outliers that might skew the data falsly.
 df.drop(df[df.sqft_lot15 > 200000].index, inplace=True)
 ```
 Then we found some redundant columns that could be dropped as they do not have significant value to us such as id and date. 
-After some further exploration we decided to create clusters based on geospacial data using Kmeans algorithm. We were able to convert Lat/Long into addresses using Geopy.  
+After some further exploration we decided to create clusters based on geospacial data using Kmeans algorithm. We began experimenting with 20 clusters but ultimately settled on 500 clusters, as these provided better results.
 
+We were able to convert Lat/Long into addresses using Geopy. The initial plan was to obtain the names of the streets on which the properties were located and further improve the accuracy of the model. However, the data-conversion into street names as well as the conversion of the gathered street names into binary and subsequent training of the model with several thousand columns was very time consuming. Furthermore, the performance of the model appeared to be markedly worse afterwards. It was therefore decided to return to geographical clustering with Kmeans.
 
-Binned yr-built, yr-renovated, basement
-Organized data into 500 geographic clusters using Lat /Long and Kmeans algorithm
-Converted Lat/Long into street addresses using Geopy
+In order to check for potential areas of improvement, the predictions and test data were exported. It was thereby discovered that there were some Zip Codes in which the difference between true values and predicted values were particularly large, a review of these areas on Google Maps did not reveal any obvious features (ex: proximity to airport) which could explain these discrepancies. As a result, no adjustments to the model were made.
 
 ![TheDeepDiversProject](https://github.com/zeyadelmahdy/TheDeepDiversProject/blob/main/download.png)
 
@@ -68,7 +67,7 @@ X_rob_scaled = transformer_s.transform(numerical)
 
 ##### Applying the Model
 
-Here we decided to use Linear Regression as our model as it was the most accurate when comapred with the KNN.
+Here we decided to use Linear Regression as our model as it was more accurate than KNN.
 
 For a further detailed documentation of the code used, please click [here](https://github.com/zeyadelmahdy/TheDeepDiversProject/blob/main/Housing_Data_Analysis_V2.ipynb)
 
@@ -78,8 +77,10 @@ For a further detailed documentation of the code used, please click [here](https
 The model achieved an accuracy measure of approximately 85% after we used the clustering method mentioned earlier
 What this means is that we can now predict housing prices with an accuracy of 85% based on the given features. 
 
-r2 score: 0.8587240336738631
-MSE: 19132644104.077614
+R2 score= 0. 853...
+Mean absolute error = 84357
+
+These values indicate that there is still significant room for improvement with regards to the mean error.
 
 ### Visualization 
 
@@ -94,7 +95,7 @@ You can see below some of our visualizations that we were able to create. For mo
 
 To conclude, we can predict housing prices in King County with an accuracy of 85%. In addition, we can make certain pricing recommendations on undervalued & overvalued properties in order to optimize their pricing. 
 
-However, to achieve a higher prediction accuracy we would require much more hyperlocal data points in order dive deeper into the underlying trends and insights. 
+However, to achieve a higher prediction accuracy we would require more hyperlocal data points in order dive deeper into the underlying trends and insights. Presumably the model can also be tweaked to better reflect the existing data.
 
 
 
